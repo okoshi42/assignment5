@@ -147,9 +147,7 @@ namespace csi281 {
             //inserts targetVal into index left of the last index shifted
             array[y + 1] = targetVal;
         }      
-    }
-}
-    
+    }  
     // Performs an in-place ascending sort of *array*
     // using merge sort until there is less than 10 elements, and then
     // the insertion sort algorithm
@@ -176,4 +174,5 @@ namespace csi281 {
             inplace_merge(array + start, array + (split + 1), array + (end + 1)); //merges the two returned sorted halfs
         }
     }
+}
 #endif /* sort_hpp */
